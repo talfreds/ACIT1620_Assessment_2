@@ -1,0 +1,87 @@
+#cont   {
+    top:50px;
+}
+#display    {
+    top:40px;
+    width:100vw;
+    height:30vh;
+    margin:5px;
+    position:relative;
+}
+
+.face   {
+    position:relative;
+    display:inline-block;
+    margin:5px;
+}
+.nitems {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position:absolute;
+    height:auto;
+}
+#controls   {
+    }
+
+#buttons    {
+    border-right:1px solid #000;
+    width:260px;
+    height:18   px;
+    position:fixed;
+    display:block;
+    margin:5px;
+    z-index:9999;
+    
+}
+
+.buttonsc   {
+    
+    text-align: center;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    border-radius:5px;
+}
+
+#plusb  {
+    background-color: grey;
+    color: white;
+}
+.rinputs    {
+    border-radius: 5px;
+    width:75px;
+
+}
+
+.rinputs::-webkit-slider-thumb    {
+    border-radius: 50%;
+}
+
+
+.rinputs::-moz-range-thumb    {
+    border-radius: 50%;
+}
+
+#rangeb  {
+    border-radius:5px;
+    background-color: white;
+}
+
+#numb  {
+    color: white;
+    background-color: #2F4F4F;
+}
+
+#randomb  {
+    color: dimgrey;
+    background-color: pink;
+}
+
+
+
+#autod  {
+    position:fixed;
+    left:265px;
+    margin:5px 5px 5px 15px;
+    z-index:9998;
+}
