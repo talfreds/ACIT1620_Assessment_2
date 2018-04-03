@@ -151,7 +151,8 @@ function createFace()   {
     fmouth.className = 'nitems';
     fnose.className = 'nitems';
     feyes.className = 'nitems';
-    face.className = 'face';
+    face.className = 'face col-xl-1 col-lg-auto col-md-2 col-sm-3';
+    
         face.appendChild(fhair);
     face.appendChild(fmouth);
     face.appendChild(fnose);
@@ -228,7 +229,7 @@ function randomFaces()   {
     fmouth.className = 'nitems';
     fnose.className = 'nitems';
     feyes.className = 'nitems';
-    face.className = 'face';
+    face.className = 'face col-xl-1 col-lg-auto col-md-2 col-sm-3';
     
         face.appendChild(fhair);
     face.appendChild(fmouth);
